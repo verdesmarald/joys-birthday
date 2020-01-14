@@ -1,0 +1,12 @@
+[Unit]
+Description=Joy's Birthday Website
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/ec2-user/nailedit
+ExecStart=/usr/bin/flask run --host 0.0.0.0 --port 80
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
