@@ -4,21 +4,21 @@ from datetime import datetime
 # create the application object
 app = Flask(__name__)
 
-# use decorators to link the function to a url
 @app.route('/')
-def home():
-    return "Hello, World!"  # return a string
-
-@app.route('/welcome')
 def welcome():
-    return render_template('welcome.html')  # render a template
+    return render_template('home.html')  # render a template
 
-@app.route('/notyet')
-def notyet():
-    if datetime.now() < datetime(2020, 1, 15):
-        return "Not yet!"
+@app.route('/round1')
+def round1():
+    return render_template('slothpops.html')
 
-    return render_template('welcome.html')  # render a template
+@app.route('/round2')
+def round2():
+    return render_template('hedgehog.html')
+
+@app.route('/round3')
+def round3():
+    return render_template('cheating.html')
 
 # start the server with the 'run()' method
 if __name__ == '__main__':

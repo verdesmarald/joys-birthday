@@ -1,0 +1,28 @@
+body::before {
+    content: "";
+    width: 100%;
+    height: 120%;
+    position: fixed;
+    z-index: -1;
+    background: linear-gradient(cadetblue, powderblue);
+}
+
+body {
+    color: black;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+a.col {
+    margin: 0.5em;
+}
+
+img.logo {
+    max-height: 150px;
+    display: block;
+    margin: auto auto;
+}
