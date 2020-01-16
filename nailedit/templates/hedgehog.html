@@ -30,11 +30,108 @@
                 <a class="col btn btn-primary" role="button" href="/round1">Round 1</a>
                 <a class="col btn btn-primary" role="button" href="/round2">Round 2</a>
             </div>
-            <div class="row">
-                <img class="col" src="static/images/hedgehog.png" />
+            <div class="row justify-content-center">
+                <div class="col">
+                    <h1 class="text-center">HEDGEHOG CAKE</h2>
+                </div>
             </div>
+            <div class="row justify-content-md-center">
+                <img class="col-md-8 col-lg-6" src="static/images/hedgehog.png" />
+            </div>
+            <div id="accordion" >
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Ingredients
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <ol>
+                          <li>Flour</li>
+                          <li>Sugar</li>
+                          <li>Milk</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Step 1: Make Cakes
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        <ol>
+                            <li>Whisk the flour, baking powder, and salt together in a medium bowl and set aside</li>
+                            <li>Beat butter and sugar together until creamed, then add egg and vanilla extract</li>
+                            <li>Slow mixer and gradually add dry ingredients until all combined</li>
+                            <li>Pour batter into greased cake tins and bake</li>
+                        </ol>
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Step 2: Make Buttercream
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        <ol>
+                            <li>Soften butter, then beat with paddle mixer for ~2 minutes until creamy</li>
+                            <li>Slow mixer and add icing sugar, milk, and vanilla extract</li>
+                            <li>Mix for 3 minutes on high</li>
+                        </ol>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Step 3: Assemble Cake
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        <ol>
+                            <li>Stack cooled cakes with buttercream between each layer</li>
+                            <li>Carve edges of stacked cake into hedgehog shape</li>
+                        </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Step 4: Decorate!
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                      <ol>
+                          <li>Use fondant to cover the cake and add details such as face, arms and spikes</li>
+                          <li>Construct fondant candle and birthday hat and attach to cake</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
 
-        <script src="static/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="static/script/jquery.min.js" type="text/javascript"></script>
+        <script src="static/script/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>

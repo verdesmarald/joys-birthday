@@ -26,3 +26,8 @@ img.logo {
     display: block;
     margin: auto auto;
 }
+
+#accordion {
+    padding-top: 1em;
+    font-weight: 400;
+}
