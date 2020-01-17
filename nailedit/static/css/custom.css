@@ -31,3 +31,7 @@ img.logo {
     padding-top: 1em;
     font-weight: 400;
 }
+
+.no-stretch {
+    align-items: flex-start !important;
+}
